@@ -1,1 +1,1 @@
-# Safebox-Cyber-Security-Data-Science-Egitimi için verilen ödevler
+# Safebox Cyber Security Data Science Eğitimi için verilen ödevler
