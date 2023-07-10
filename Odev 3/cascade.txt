@@ -1,4 +1,4 @@
-Cascade (bilgisayar virüsü)
+Şelale virüsü (İngilizce: Cascade virus)
 Cascade virüsü ( Almanya'da Herbstlaub olarak da bilinir ), 1980'lerde ve 1990'ların başında yaygın olan, Assembly dilinde yazılmış yerleşik bir bilgisayar virüsüdür . Enfekte oldu. COM dosyaları ve ekrandaki metnin düşmesi (veya basamaklanması) ve ekranın altında bir yığın oluşturma etkisi vardı. Tespit edilmekten kaçınmak için bir şifreleme algoritması kullanması dikkate değerdi . Ancak, virüslü dosyaların boyutlarının 1701 veya 1704 bayt arttığı görülebilir. Buna karşılık, IBM kendi antivirüs yazılımını geliştirdi .
 
 Virüsün birkaç çeşidi var. Yugoslavya'dan geldiği bildirilen Cascade-17Y4, en yaygın 1704 baytlık varyantla neredeyse aynıdır. Muhtemelen rastgele bir "mutasyon" nedeniyle bir bayt değiştirildi. Ancak bu, virüste bir "hata" ile sonuçlanmıştır. Başka bir mutasyona uğramış varyant da bilinmektedir - aynı dosyaya defalarca bulaşır.
