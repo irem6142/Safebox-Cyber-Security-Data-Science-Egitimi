@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <form method="POST" action="{{ url_for('add_todo') }}">
+            <input type="text" name="title" id="ekle" placeholder="Yapılacaklar Listesi" required>
+            <button type="submit" id="add">Add Todo</button>
+        </form>
+        <ul>
+            {% for todo in todos %}
+            <li>
+                {{ todo.title }}
+                <form method="POST" action="{{ url_for('delete_todo', todo_id=todo.id) }}" class="delete-form">
+                    <button type="submit" class="delete-button">Delete</button>
+                </form>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <script>
+        // Confirm delete
+        const deleteForms = document.querySelectorAll('.delete-form');
+        deleteForms.forEach(form => {
+            form.addEventListener('submit', (e) => {
+                const confirmDelete = confirm('Are you sure you want to delete this todo?');
+                if (!confirmDelete) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
