@@ -1,0 +1,21 @@
+Normalizasyon, veri setinin farklı özelliklerinin aynı ölçekte ve aynı değer aralığında olmasını sağlayan bir veri ön işleme tekniğidir. Normalizasyon, veri analizi ve makine öğrenimi modellerinin performansını artırmak ve yanlış sonuçlara neden olabilecek ölçek farklılıklarını ortadan kaldırmak için kullanılır.
+
+Veri normalizasyonu genellikle sayısal veriler üzerinde uygulanır. İşte yaygın olarak kullanılan bazı normalizasyon yöntemleri:
+
+Min-Max Normalizasyonu: Min-Max normalizasyonu, verileri belirli bir değer aralığına (genellikle 0 ile 1 arasına) dönüştürür. Bu yöntem, orijinal veri aralığını korurken verileri normalize etmek için aşağıdaki formülü kullanır:
+
+x_norm = (x - min(x)) / (max(x) - min(x))
+
+Burada x, normalize edilecek veri noktası, min(x) veri setindeki en küçük değer ve max(x) veri setindeki en büyük değerdir.
+
+Z-Skor Normalizasyonu: Z-skor normalizasyonu, verileri standart sapma ve ortalama kullanarak dönüştürür. Bu yöntem, verileri ortalaması 0 ve standart sapması 1 olan bir normal dağılım olarak normalize eder. Formül şu şekildedir:
+
+x_norm = (x - mean(x)) / std(x)
+
+Burada x, normalize edilecek veri noktası, mean(x) veri setindeki ortalama değer ve std(x) veri setindeki standart sapmadır.
+
+Skala Normalizasyonu: Skala normalizasyonu, verileri belirli bir aralığa dönüştürür. Örnek olarak 0-10 veya -1 ile 1 aralığı gibi belirlenebilir. Bu yöntem, min-max normalizasyonuna benzerdir, ancak istenen aralık farklılık gösterebilir.
+
+Varyans Dönüşümü: Varyans dönüşümü, verilerin varyansını kullanarak dönüşüm yapar. Bu yöntem, veri setindeki büyük varyanslı özellikleri sınırlamak için kullanılabilir.
+
+Normalizasyon, veri setinin özelliklerini aynı ölçekte getirerek, modellerin daha tutarlı sonuçlar üretmesine yardımcı olur ve yanlış bir ağırlıklandırma veya etkileşim oluşturmasının önüne geçer. Normalizasyon, özellik seçimi, kümeleme, sinir ağları gibi pek çok veri analizi ve makine öğrenimi yöntemiyle birlikte kullanılabilir. Ancak normalizasyon, verinin dağılımını değiştirebileceği için dikkatli bir şekilde uygulanmalı ve normalizasyon işlemi veri setine uygun olduğundan emin olunmalıdır.

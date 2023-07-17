@@ -1,0 +1,17 @@
+Etiket kodlaması (label encoding), veri biliminde kategorik (nominal veya ordinal) verilerin sayısal değerlere dönüştürülmesi işlemidir. Bu dönüşüm, makine öğrenimi modellerinin kategorik verileri anlayabilmesi ve işleyebilmesi için gereklidir.
+
+Label encoding, genellikle sıralanabilir (ordinal) kategorik verilerin dönüşümünde kullanılır. Örneğin, "yüksek", "orta" ve "düşük" gibi sıralanabilir bir niteliği ifade eden verileri 1, 2 ve 3 gibi sayısal değerlere dönüştürmek için kullanılabilir.
+
+Python dilinde, scikit-learn kütüphanesi label encoding işlemini gerçekleştirmek için LabelEncoder sınıfını sağlar. İşte bir örnek:
+from sklearn.preprocessing import LabelEncoder
+
+veri = ["yüksek", "orta", "düşük", "yüksek", "orta"]
+
+label_encoder = LabelEncoder()
+etiketler = label_encoder.fit_transform(veri)
+
+print(etiketler)
+
+LabelEncoder, her bir kategoriye benzersiz bir sayı atar. Yukarıdaki örnekte, "yüksek" 2'ye, "orta" 1'e ve "düşük" 0'a dönüştürülmüştür.
+
+Not: Label encoding, bazı durumlarda sorunlara yol açabilir, özellikle de kategorik verilerin sıralı olmadığı durumlarda. Bu durumda, One-Hot Encoding gibi diğer kodlama yöntemlerini kullanmak daha uygun olabilir.

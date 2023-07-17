@@ -1,0 +1,17 @@
+İstatistik veri analizi, veri setleri üzerinde istatistiksel yöntemler ve teknikler kullanarak bilgi çıkarmayı amaçlayan bir süreçtir. İstatistik veri analizi, verilerin anlaşılması, özetlenmesi, keşfedilmesi ve sonuçların çıkarılması için istatistiksel yöntemlerin kullanılmasını içerir. İşte istatistik veri analizi sürecinde kullanılan bazı temel adımlar:
+
+Veri Toplama: İlk adım, analiz yapmak için gerekli olan verileri toplamaktır. Veriler, anketler, anketler, gözlemler, ölçümler veya diğer kaynaklardan elde edilebilir.
+
+Veri Temizliği: Verilerin doğruluğunu ve eksiksizliğini kontrol etmek için veri temizliği yapılır. Bu adımda, gereksiz veya yanlış verilerin çıkarılması, eksik verilerin ele alınması ve aykırı değerlerin belirlenmesi gibi işlemler yapılır.
+
+Veri Keşfi: Veri keşfi, veri setinin yapısını, özelliklerini ve dağılımını anlamak için yapılan analizdir. Bu adımda, veri görselleştirmesi ve istatistiksel özetlemeler kullanılarak verilerin analizi yapılır.
+
+Özellik Seçimi: Analiz için önemli olan özelliklerin seçimi ve değişkenler arasındaki ilişkilerin incelenmesi önemlidir. Korelasyon analizi, değişken seçimi teknikleri ve veri keşfi yöntemleri kullanılarak özelliklerin seçilmesi yapılabilir.
+
+İstatistiksel Analiz: Veri seti üzerinde çeşitli istatistiksel analiz teknikleri uygulanır. Bunlar arasında merkezi eğilim ve yayılma ölçüleri, hipotez testleri, regresyon analizi, varyans analizi, faktör analizi ve kümeleme analizi gibi teknikler bulunur.
+
+Sonuç Çıkarımı: İstatistiksel analiz sonuçlarının yorumlanması ve sonuçların çıkarılması adımıdır. Bu adımda, analiz sonuçlarına dayanarak veri setiyle ilgili çıkarımlar yapılır ve ilgili kararlar alınır.
+
+Raporlama: İstatistik veri analizi sürecinde elde edilen sonuçlar, grafikler, tablolar ve açıklamalarla raporlanır. Raporlama, analiz sonuçlarının paylaşılması, sunumu ve hedef kitleye uygun olarak iletilmesini sağlar.
+
+İstatistik veri analizi, bilimsel araştırmalar, iş analitiği, pazarlama stratejileri, ekonomi, sağlık gibi çeşitli alanlarda uygulanabilir. Analizin doğruluğunu ve güvenilirliğini sağlamak için istatistiksel yöntemlerin ve analiz araçlarının doğru bir şekilde uygulanması ve yorumlanması önemlidir.

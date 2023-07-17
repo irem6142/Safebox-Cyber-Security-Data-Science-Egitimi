@@ -1,0 +1,13 @@
+Eksik verileri doldurmak için bazı yöntemler:
+
+Ortalama veya Medyan Değer ile Doldurma: Eksik değerleri, sütunun ortalaması veya medyanı gibi istatistiksel ölçümlerle doldurabilirsiniz. Bu yöntem, sayısal verilerin doldurulmasında sıklıkla kullanılır. Eksik verilerin yerine, sütunun ortalama veya medyan değeri atanır.
+
+En Yakın Komşu Değeri ile Doldurma: Eksik değerleri, en yakın komşularının değeriyle doldurabilirsiniz. Bu yöntem, özellikler arasındaki benzerlikleri kullanır ve çoğunlukla sayısal verilerde kullanılır. Veri noktasının eksik değeri, benzer diğer veri noktalarının değeriyle doldurulur.
+
+Regresyon Analizi ile Doldurma: Regresyon analizi, eksik verileri tahmin etmek için kullanılan bir yöntemdir. Diğer özelliklerle eksik veri arasındaki ilişkiyi kullanarak eksik değeri tahmin eder. Örneğin, lineer regresyon modeli kullanarak eksik değeri diğer bağımsız değişkenlerle tahmin edebilirsiniz.
+
+EM Algoritması ile Doldurma: EM (Expectation-Maximization) algoritması, eksik verileri tahmin etmek için kullanılan bir istatistiksel modelleme yöntemidir. EM algoritması, eksik veriyi tahmin etmek için mevcut veri ve model parametrelerini kullanır.
+
+Makine Öğrenimi Modelleri ile Doldurma: Eksik verileri doldurmak için makine öğrenimi modelleri kullanabilirsiniz. Örneğin, Random Forests, Decision Trees, KNN veya Gradient Boosting gibi modelleri kullanarak eksik verileri tahmin edebilirsiniz.
+
+Eksik Veriyi Silme: Eğer eksik veri miktarı çok fazla değilse, eksik veriyi içeren satırları veya sütunları silme seçeneğini değerlendirebilirsiniz. Ancak bu yöntem, önemli bilgilerin kaybedilmesine neden olabileceği için dikkatli bir şekilde kullanılmalıdır.
